@@ -1,0 +1,122 @@
+.loginForm {    
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+        
+}
+
+.loginFormDenied {
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+
+}
+
+.loginFormOnClick {    
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+}
+
+.loginFormDenied #InputLogin  {
+    outline: 2px  solid red;
+}
+
+.form-control {
+    margin: 20px;
+}
+
+span {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.loginFormSuccess {
+    display: block;
+    max-width:300px ; 
+    padding: 15px;
+    margin: 20% auto; 
+
+}
+
+
+.loginFormSuccess .success  {
+  display:flex;
+  z-index: 999;
+}
+
+img.SuccessImage {
+    display: flex;
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+div.SuccessImage img {
+    width: 40px;
+    height: 40px;
+}
+
+.loginFormSuccess .image {
+    display: flex;
+    float: left;
+    position: relative;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.loginFormSuccess .succesLogged {
+    position: relative;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+.loginFormOnClick .button > button {
+    background: url("https://cdn.icon-icons.com/icons2/933/PNG/512/settings-cogwheel-button_icon-icons.com_72559.png");
+    /*background: url('https://st3.depositphotos.com/2384459/15112/v/1600/depositphotos_151124258-stock-illustration-blue-white-information-sign-cogwheel.jpg');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/*  CSS Loader */
+      .lds-ring {
+        display: inline-block;
+        position: relative;
+        width: 25px;
+        height: 25px;
+      }
+      .lds-ring div {
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border: 8px solid #17a2b8;
+        border-radius: 50%;
+        animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+        border-color: #17a2b8 transparent transparent transparent;
+      }
+      .lds-ring div:nth-child(1) {
+        animation-delay: -0.45s;
+      }
+      .lds-ring div:nth-child(2) {
+        animation-delay: -0.3s;
+      }
+      .lds-ring div:nth-child(3) {
+        animation-delay: -0.15s;
+      }
+      @keyframes lds-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }      
